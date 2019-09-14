@@ -15,11 +15,12 @@ df2.to_excel('D:/数据分析/3004982.xlsx')
 df = pro.cb_daily(ts_code='127010.SZ')
 #df.to_excel('D:/Data_analysis/127010SZ.xlsx')
 
-
+'''
 df['group1']= np.random.choice(['a'])
 grouped = df.groupby('group1')
 #df2 = grouped.describe()
 df2 = np.transpose(grouped.describe())
 df2.to_excel('D:/Data_analysis/ddd127010SZ.xlsx')
+'''
 
 print("done!")
